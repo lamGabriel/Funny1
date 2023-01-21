@@ -1,0 +1,29 @@
+/* CSS-Code für meine Website */
+
+/* Hintergrundfarbe der Website */
+body {
+    background-color: rgb(95, 81, 81);
+}
+
+/*Container für Bilder*/
+.images-container{
+    display: flex; /* Bilder nebeneinander anzeigen */
+    justify-content: center; /* Bilder mittig ausrichten */
+}
+
+/* Bilder gleich groß (33%), mittig und horizontal nebeneinander ausrichten */
+img {
+    width: 23%;
+    max-width: 23%;
+    max-height: 23%;
+    margin: auto;
+}
+/* Text mittig, fett und in Arial darstellen */
+h1, p {
+    text-align: center; /* Mittig ausrichten */
+    font-weight: bold; /* Fett darstellen */
+    font-family: Arial, sans-serif; /* Schriftart Arial verwenden */
+}
+p {
+    font-size: 18px;
+}
